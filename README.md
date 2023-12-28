@@ -19,6 +19,24 @@ Run program with
 bun start
 ```
 
+## Docker
+Fill out .env
+
+run as such
+```bash
+docker compose up -d
+```
+
+check logs
+```bash
+docker compose logs -f
+```
+
+kill program
+```bash
+docker compose down
+```
+
 ## License
 
 MIT
