@@ -1,0 +1,36 @@
+{
+  "name": "fleet-ergo-chained-token-sender",
+  "version": "0.0.1",
+  "main": "src/app/main.ts",
+  "description": "Sends transactions in a chained transaction to one recipient per transaction. Only one token type can be sent per transaction.",
+  "scripts": {
+    "start": "bun run src/app/main.ts"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "bun"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/wobsoriano/pkg-name#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wobsoriano/pkg-name.git"
+  },
+  "bugs": "https://github.com/wobsoriano/pkg-name/issues",
+  "author": "Robert Soriano <sorianorobertc@gmail.com>",
+  "devDependencies": {
+    "bun-plugin-dts": "^0.1.0",
+    "bun-types": "^1.0.1",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "@fleet-sdk/common": "^0.2.3",
+    "@fleet-sdk/core": "^0.2.3",
+    "@fleet-sdk/serializer": "^0.2.3",
+    "axios": "^1.5.1",
+    "dotenv": "^16.3.1",
+    "ergo-lib-wasm-nodejs": "^0.26.0"
+  }
+}
