@@ -68,7 +68,7 @@ export async function getInputBoxes(
         BigInt(0)
     );
 
-    if (cumInputValue === targetNanoErgs) {
+    if (cumInputValue >== targetNanoErgs) {
         return inputs;
     }
 
